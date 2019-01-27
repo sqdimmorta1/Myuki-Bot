@@ -16,7 +16,6 @@
     "cpu": "^1.0.1",
     "cpu-stat": "^2.0.1",
     "dateformat": "^3.0.3",
-    "db": "^1.1.1",
     "discord.js": "^11.4.2",
     "fs": "0.0.1-security",
     "hypixel-api": "^1.1.0",
