@@ -20,7 +20,6 @@
     "discord.js": "^11.4.2",
     "fs": "0.0.1-security",
     "hypixel-api": "^1.1.0",
-    "m": "^1.5.1",
     "math": "0.0.3",
     "mathjs": "^5.2.3",
     "moment": "^2.22.2",
