@@ -1,0 +1,36 @@
+{
+  "name": "myuki",
+  "version": "1.0.0",
+  "description": "fun bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Immorta1",
+  "license": "ISC",
+  "dependencies": {
+    "ascii": "^1.0.0",
+    "ascii-art": "^1.5.0",
+    "canvas": "^2.0.1",
+    "cowsay": "^1.3.1",
+    "cpu": "^1.0.1",
+    "cpu-stat": "^2.0.1",
+    "dateformat": "^3.0.3",
+    "db": "^1.1.1",
+    "discord.js": "^11.4.2",
+    "fs": "0.0.1-security",
+    "m": "^1.5.1",
+    "math": "0.0.3",
+    "mathjs": "^5.2.3",
+    "moment": "^2.22.2",
+    "moment-duration-format": "^2.2.2",
+    "ms": "^2.1.1",
+    "os": "^0.1.1",
+    "qrcode": "^1.3.2",
+    "request": "^2.88.0",
+    "snekfetch": "^4.0.4",
+    "strict-uri-encode": "^2.0.0",
+    "time-ago": "^0.2.1",
+    "weather-js": "^2.0.0"
+  }
+}
