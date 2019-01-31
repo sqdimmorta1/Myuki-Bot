@@ -65,7 +65,7 @@ if(args[0] == "colt"){
   *Colt fires an extra-long volley of bullets. These bullets appear larger in size, have a considerably longer range, and have the ability to destroy bushes and walls and hit enemies behind them.*`)
   .addField(`**Star Power: Slick Boots**`, `Colt gets slick new boots that put a spring in his step, increasing his movement speed!
     *Colt's movement speed is increased by 60 points, allowing him to move faster than most other Brawlers.*`)
-  .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8a/Colt_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171111185814")
+  .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8a/Colt_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20190129073952")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/0/08/Colt_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173806")
 message.channel.send(colt);
   return;
@@ -404,7 +404,7 @@ if(args[0] == "spike"){
   *When Spike's Super is used, the area near him that he targets grows a circular patch of cacti. Enemies caught in this area take damage and have their movement speed drastically reduced until they move out of the area or the cacti disappear a few seconds after the Super is used.*`)
   .addField(`**Star Power: Fertilize**`, `After using Super, Spike regenerates 500 health per second by staying in its area of effect.
     *Spike's star power allows him to regain health by standing in the cactus patch he creates with his Super. This can be useful for both healing Spike and damaging nearby enemies.*`)
-  .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8e/Spike_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171111190030")
+  .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8e/Spike_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20190129073953")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/2/22/Spike_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174004")
 message.channel.send(spike);
   return;
