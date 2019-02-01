@@ -50,7 +50,8 @@ if(args[0] == "shelly"){
     *People caught in the range of Shelly’s Super Shell are slowed down by a considerable amount. This allows Shelly and her teammates to quickly close the gap on enemies.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/5/5e/Shelly_Skin-Default.png/revision/latest?cb=20181212051920")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/e/e5/Shelly_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173718")
-message.channel.send(shelly);
+  message.react("519540649586851850")
+  message.author.send(shelly);
   return;
 };
 
@@ -67,7 +68,8 @@ if(args[0] == "colt"){
     *Colt's movement speed is increased by 60 points, allowing him to move faster than most other Brawlers.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8a/Colt_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20190129073952")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/0/08/Colt_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173806")
-message.channel.send(colt);
+  message.react("519540649586851850")
+  message.author.send(colt);
   return;
 };
 
@@ -84,7 +86,8 @@ if(args[0] == "nita"){
     *This is a useful passive that allows Nita to heal herself and her bear. In order to maximize healing, throw the bear into a large group of Brawlers so it lands more hits to heal Nita. Likewise, Nita can also join in the fight to keep her bear alive for longer.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/3/36/Nita_Skin-Default.png/revision/latest?cb=20181212051918")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/9/9f/Nita_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174251")
-message.channel.send(nita);
+  message.react("519540649586851850")
+  message.author.send(nita);
   return;
 };
 
@@ -100,7 +103,8 @@ if(args[0] == "bull"){
   .addField(`**Star Power: Berserker**`, `When Bull falls below 40% health, his reload speed doubles!`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/b/b7/Bull_Skin-Default.png/revision/latest?cb=20181212051919")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/4/4a/Bull_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174132")
-message.channel.send(bull);
+  message.react("519540649586851850")
+  message.author.send(bull);
   return;
 };
 
@@ -117,7 +121,8 @@ if(args[0] == "jessie"){
     *Jessie's Star Power allows her to hit her turret with her normal Attack to heal it. The Attack will still bounce towards the closest enemy like normal, meaning that your Attacks will still hint to enemy whereabouts and may even hit them*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/1/15/Jessie_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20180927233605")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/4/4e/Jessie_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173920")
-message.channel.send(jessie);
+  message.react("519540649586851850")
+  message.author.send(jessie);
   return;
 };
 
@@ -134,7 +139,8 @@ if(args[0] == "brock"){
     *Brock's rockets gain a unique and powerful ability called Incendiary. Upon detonation or contact with an enemy, the rocket leaves a patch of fire that disappears after a few seconds. These flames can deal considerable damage. Friendly flames appear blue, and enemy flames appear orange. Incendiary does not affect Brock's Super.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/7/70/Brock_Skin-Default.png/revision/latest?cb=20181212051918")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/f/f9/Brock_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173633")
-message.channel.send(brock);
+  message.react("519540649586851850")
+  message.author.send(brock);
   return;
 };
 
@@ -151,7 +157,8 @@ if(args[0] == "dynamike"){
     *Dynamike's main attack and Super propel him a short distance away from the detonation point. He can also jump over walls.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/6/6e/Dynamike_Skin-Default.png/revision/latest?cb=20181212051918")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/6/64/Dynamike_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173612")
-message.channel.send(dynamike);
+  message.react("519540649586851850")
+  message.author.send(dynamike);
   return;
 };
 
@@ -168,7 +175,8 @@ if(args[0] == "bo"){
     *This powerful passive allows Bo and everyone on his team to see 4 tiles into Bushes (on Bo's view), instead of the normal 2 tiles. This can even allow you to see far into bushes that you aren't near to.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/e/ee/Bo_Skin-Default.png/revision/latest?cb=20170706213900")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/3/30/Bo_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174309")
-message.channel.send(bo);
+  message.react("519540649586851850")
+  message.author.send(bo);
   return;
 };
 
@@ -185,7 +193,8 @@ if(args[0] == "poco"){
     *This Star Power allows Poco to heal allied Brawlers for 400 health with his regular Attack while simultaneously damaging enemy Brawlers.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/2/24/Poco_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20180923223437")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/5/59/Poco_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174328")
-message.channel.send(poco);
+  message.react("519540649586851850")
+  message.author.send(poco);
   return;
 };
 
@@ -202,7 +211,8 @@ if(args[0] == "barley"){
     *Whenever Barley throws a bottle from his main attack, he regains 200 hitpoints. This effect does not affect his Super.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/3/3c/Barley_Skin-Default.png/revision/latest?cb=20181212051919")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/a/a1/Barley_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174218")
-message.channel.send(barley);
+  message.react("519540649586851850")
+  message.author.send(barley);
   return;
 };
 
@@ -219,7 +229,8 @@ if(args[0] == "el-primo"){
     *When El Primo uses his Super, he sets fire to enemies that he hits at the end of his leap. This burning effect causes affected enemies to take a total of 600 damage over 4 seconds. It is very similar to Crow's poison effect.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/0/04/El_Primo_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171111185859")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/c/c5/El_Primo_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173902")
-message.channel.send(primo);
+  message.react("519540649586851850")
+  message.author.send(primo);
   return;
 };
 
@@ -236,7 +247,8 @@ if(args[0] == "elprimo"){
     *When El Primo uses his Super, he sets fire to enemies that he hits at the end of his leap. This burning effect causes affected enemies to take a total of 600 damage over 4 seconds. It is very similar to Crow's poison effect.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/0/04/El_Primo_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171111185859")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/c/c5/El_Primo_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173902")
-message.channel.send(primo);
+  message.react("519540649586851850")
+  message.author.send(primo);
   return;
 };
 
@@ -253,7 +265,8 @@ if(args[0] == "primo"){
     *When El Primo uses his Super, he sets fire to enemies that he hits at the end of his leap. This burning effect causes affected enemies to take a total of 600 damage over 4 seconds. It is very similar to Crow's poison effect.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/0/04/El_Primo_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171111185859")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/c/c5/El_Primo_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173902")
-message.channel.send(primo);
+  message.react("519540649586851850")
+  message.author.send(primo);
   return;
 };
 
@@ -270,7 +283,8 @@ if(args[0] == "darryl"){
     *The damage reduction granted by his Star Power makes it less likely that Darryl will be defeated while he is rolling around during his Barrel Roll ability and continues to protect him for 3.5 seconds after he stops rolling. This makes his Super even better for safely escaping dangerous situations and less risky when the Super is being used to roll into and damage enemy Brawlers.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/6/66/Darryl_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20171207183139")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/4/46/Darryl_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173943")
-message.channel.send(darryl);
+  message.react("519540649586851850")
+  message.author.send(darryl);
   return;
 };
 
@@ -287,7 +301,8 @@ if(args[0] == "ricochet"){
     *If Ricochet's bullets (from either main attack or Super) bounce off a wall, they turn white, travel faster, and deal 80 bonus damage.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/0/0b/Ricochet_Skin-Default.png/revision/latest/scale-to-width-down/307?cb=20171111190010")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/1/11/Ricochet_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174354")
-message.channel.send(darryl);
+  message.react("519540649586851850")
+  message.author.send(darryl);
   return;
 };
 
@@ -304,7 +319,8 @@ if(args[0] == "penny"){
     *When the cannon is destroyed or replaced by another cannon, it will fire several cannonballs that land nearby, each dealing 1680 damage to any enemy that it hits.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/d/d6/Penny_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20180518182615")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/8/8d/Penny_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173828")
-message.channel.send(penny);
+  message.react("519540649586851850")
+  message.author.send(penny);
   return;
 };
 
@@ -321,7 +337,8 @@ if(args[0] == "piper"){
     *When Piper is hidden within a bush, her main attack gains 400 bonus damage, making her already devastating shots even more deadly. The bullet also gets rainbow trail replacing the standard rings.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/5/5d/Piper_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20170706213944")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/f/f0/Piper_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174154")
-message.channel.send(piper);
+  message.react("519540649586851850")
+  message.author.send(piper);
   return;
 };
 
@@ -338,7 +355,8 @@ if(args[0] == "pam"){
     *Pam heals herself and nearby teammates by 30 each time a bullet of hers hits an enemy. This includes hits on an enemy Jessie's Turret, Nita's Bear, an enemy Pam's Healing Station, Tara's shadow, and buff crates in Showdown.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/6/68/Pam_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20170905025031")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/d/dc/Pam_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174021")
-message.channel.send(pam);
+  message.react("519540649586851850")
+  message.author.send(pam);
   return;
 };
 
@@ -355,7 +373,8 @@ if(args[0] == "frank"){
     *Frank can now see small purple skulls where other Brawlers had been defeated. Grabbing a skull will increase his damage by 30% for a total of 10 seconds. During this time, Frank can refresh Power Grab's duration if he grabs another skull.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/5/55/Frank_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20180518182616")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/6/63/Frank_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174114")
-message.channel.send(frank);
+  message.react("519540649586851850")
+  message.author.send(frank);
   return;
 };
 
@@ -372,7 +391,8 @@ if(args[0] == "mortis"){
     *After gaining Mortis' Star Power dead enemies now drop souls. The souls resemble green skulls and they drop at the point where the enemy brawler were defeated. Only Mortis can see these souls. Picking up a soul instantly restores 1000 health for Mortis. Restored health cannot exceed maximum HP and a soul cannot be picked up if Mortis is at full health. There is no limit how many souls there can be on the battlefield at once. The same brawler can drop multiple souls if they are defeated multiple times, even though the soul hasn't been picked up. Note only Mortis can pick up the souls; if an allied brawler walks over a soul they won't pick it up.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/b/b2/Mortis_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20181010200125")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/b/b4/Mortis_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220173653")
-message.channel.send(mortis);
+  message.react("519540649586851850")
+  message.author.send(mortis);
   return;
 };
 
@@ -389,7 +409,8 @@ if(args[0] == "tara"){
     *When Tara uses Gravity, she summons a shadowy, smaller version of herself. This minion is similar to Nita's bear but weaker. This version of Tara has 2000 health and deals low melee damage with a fast hit speed. However, it is very fast, making it an immediate threat to enemy Brawlers.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/a/a7/Tara_Skin-Default.png/revision/latest?cb=20170905025018")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/4/49/Tara_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174044")
-message.channel.send(tara);
+  message.react("519540649586851850")
+  message.author.send(tara);
   return;
 };
 
@@ -406,7 +427,8 @@ if(args[0] == "spike"){
     *Spike's star power allows him to regain health by standing in the cactus patch he creates with his Super. This can be useful for both healing Spike and damaging nearby enemies.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/8/8e/Spike_Skin-Default.png/revision/latest/scale-to-width-down/310?cb=20190129073953")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/2/22/Spike_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174004")
-message.channel.send(spike);
+  message.react("519540649586851850")
+  message.author.send(spike);
   return;
 };
 
@@ -423,7 +445,8 @@ if(args[0] == "crow"){
     *Crow's daggers gain a unique ability that decreases the damage output of a poisoned brawler. Affected brawlers not only receive poison damage, but also suffer a decrease in damage as well.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/a/a2/Crow_Skin-Default.png/revision/latest?cb=20170706213914")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/6/6f/Crow_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174416")
-message.channel.send(crow);
+  message.react("519540649586851850")
+  message.author.send(crow);
   return;
 };
 
@@ -440,7 +463,8 @@ if(args[0] == "leon"){
     *After unlocking his Star Power, Leon will have an increased movement speed whenever his Super is active, allowing him to move much quicker while invisible.*`)
   .setImage("https://vignette.wikia.nocookie.net/brawlstars/images/3/33/Leon_Skin-Default.png/revision/latest?cb=20181212051917")
   .setThumbnail("https://vignette.wikia.nocookie.net/brawlstars/images/4/48/Leon_Portrait.png/revision/latest/scale-to-width-down/120?cb=20181220174451")
-message.channel.send(leon);
+  message.react("519540649586851850")
+  message.author.send(leon);
   return;
 };
 
