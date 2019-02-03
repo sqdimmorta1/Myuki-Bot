@@ -19,7 +19,7 @@ module.exports.run = async (bot, message, args) => {
     const embedStats = new Discord.RichEmbed()
       .addField(":bar_chart: Myuki statistics", "[Support Server](https://discord.gg/jgcBtja) | [Patreon](https://www.patreon.com/sqdimmorta1) | [Invite](https://discordapp.com/oauth2/authorize?client_id=498442154226745365&scope=bot&permissions=2146958847)")
       .setColor("BLURPLE")
-      .addField("ﾠ", `<:molecularSettings:508290170962051074> Version: **4.2.5**
+      .addField("ﾠ", `<:molecularSettings:508290170962051074> Version: **9.0.0**
       <:molecularLeave:508290171297595402> Uptime: **${duration}**
       <:molecularNewGroup:508290171310178324> Watchs: **${bot.guilds.size.toLocaleString()} guilds**
       <a:myuki_loading:515399260414410752> Latency: **${Math.round(bot.ping)}ms**
