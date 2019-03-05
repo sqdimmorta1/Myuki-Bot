@@ -24,7 +24,17 @@ fs.readdir("./events/", (err, files) => {
 bot.on("message", message => {
   if (message.author.bot) return;
   if(message.content.indexOf(botconfig.prefix) !== 0) return;
-
+  
+  
+ let prefix = prefixes[message.guild.id].prefixes;
+  if(!message.content.startsWith(prefix)) return;
+  if(cooldown.has(message.author.id)){
+    message.delete();
+    return message.reply("You have to wait 5 seconds between commands.")
+  }
+  if(!message.member.hasPermission("ADMINISTRATOR")){
+    cooldown.add(message.author.id);
+  }
   // This is the best way to define args. Trust me.
   const args = message.content.slice(botconfig.prefix.length).trim().split(/ +/g);
   const command = args.shift().toLowerCase();
@@ -36,6 +46,10 @@ bot.on("message", message => {
     console.error(err);
   }
 });
+
+setTimeout(() => {
+    cooldown.delete(message.author.id)
+  }, cdseconds * 1000)
 
 bot.on("ready", async () => {
   console.log(`${bot.user.username} is online on ${bot.guilds.size} servers!`);
