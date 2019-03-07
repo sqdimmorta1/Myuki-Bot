@@ -22,7 +22,8 @@ module.exports.run = async (bot, message, args, ops) => {
     }
 
         if(message.mentions.members.size == 1) {
-
+            
+          let superpickle = Math.round(Math.random() * 10000);
           let memberToFind = message.mentions.members.first();
           let pickle = Math.round(Math.random() * 45);
 
