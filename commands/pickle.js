@@ -27,8 +27,17 @@ module.exports.run = async (bot, message, args, ops) => {
           let pickle = Math.round(Math.random() * 45);
 
           let embed = new Discord.RichEmbed()
-          .setDescription(`<a:GWpepelandPepeplant:512637182314414110> **I think ${memberToFind.user.tag}'s pickle is ${pickle}cm!**`)
+          .setDescription(`:cucumber: **I think ${memberToFind.user.tag}'s pickle is ${pickle}cm!**`)
           return message.channel.send(embed);
+         
+        if(message.memberToFind == botconfig.owners) {
+            
+            const ownerPicklee = new Discord.RichEmbed()
+      .setDescription(`:cucumber: **I think ${memberToFind.user.tag}'s pickle is ${superpickle}cm!**`)
+      if (botconfig.owners.includes(message.author.id)) return message.channel.send(ownerPicklee);
+            
+        message.channel.send(ownerPicklee);
+        }
 }
 
 }
