@@ -33,4 +33,3 @@ const no = new Discord.RichEmbed()
 
 
 }
- Desktop version Sign out
