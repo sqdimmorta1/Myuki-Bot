@@ -15,21 +15,22 @@ const embed = new Discord.RichEmbed()
 .setTitle(":yen: Платные услуги ML 2.0")
 .setDescription("<@&498445224402485249>")
 .setThumbnail("https://i.imgur.com/4yH01HS.png")
-.addField("Права", "``ОТДЕЛЬНАЯ КАТЕГОРИЯ! Выделение на сервере, доступ ко всем приват румам, перекидывание, управление никнеймами.``")
+.addField("Права", "``ОТДЕЛЬНАЯ КАТЕГОРИЯ! Выделение на сервере, доступ к 2-му и 3-му приват руму, перекидывание, управление никнеймами.``")
 .addField("Оплата | Цена: 300 руб/месяц", "[Нажми на меня](https://qiwi.me/mlgaming-donate)")
-.addField("Условия", "``Деньги не возвращаем, оскорбления/спам - ЧС, выдаём премиум только после оплаты, ранг выдаём в течении суток, если не доплатили - премиум не выдаётся, доплата не осуществляется, обмен вещей/аккаунтов и т.п на премиум не осуществляются, злоупотребление рангом карается снятием премиума, выдаём премиума только при донате на указанную ссылку.``")
+.addField("Условия", "``Деньги не возвращаем, оскорбления/спам - ЧС, выдаём спонсора только после оплаты, ранг выдаём в течении суток, если не доплатили - спонсор не выдаётся, доплата не осуществляется, обмен вещей/аккаунтов и т.п на спонсора не осуществляются, злоупотребление рангом карается снятием спонсора, выдаём спонсора только при донате на указанную ссылку.``")
 .setTimestamp()
 .setFooter(`По поводу платных услуг ML 2.0 обращаться к Liryz, Rent | Выдаём ранг на месяц!`)
 
-    if (message.author.id !== ops.ownerID) return message.channel.send(no);
+const no = new Discord.RichEmbed()
+.setTitle("Seems like you're missing a required argument:")
+.setDescription("<:myuki_warning:508157875563134986> Error: ``This command is only for Owner!``")
+.setTimestamp()
+.setColor("BLURPLE");
 
-    const no = new Discord.RichEmbed()
-    .setTitle("Seems like you're missing a required argument:")
-    .setDescription("<:myuki_warning:508157875563134986> Error: ``This command is only for Owner!``")
-    .setTimestamp()
-    .setColor("#170041");
+    if (message.author.id !== ops.ownerID) return message.channel.send(no);
 
              message.channel.send(embed);
 
 
 }
+ Desktop version Sign out
