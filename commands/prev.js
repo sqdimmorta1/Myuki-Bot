@@ -53,7 +53,7 @@ message.channel.send(rmsg1c);
   return;
 };
   
-if(args[0] == "Здарова
+if(args[0] == "Здарова"){
   
       let rmsg1 = [
     'Ку!',
@@ -74,7 +74,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "Дороу
+if(args[0] == "Дороу"){
   
       let rmsg1 = [
     'Ку!',
@@ -95,7 +95,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "Дарова
+if(args[0] == "Дарова"){
   
       let rmsg1 = [
     'Ку!',
@@ -116,7 +116,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "qq){
+if(args[0] == "qq"){
   
       let rmsg1 = [
     'Ку!',
@@ -158,7 +158,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "QQ){
+if(args[0] == "QQ"){
   
       let rmsg1 = [
     'Ку!',
@@ -200,7 +200,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "Ку{
+if(args[0] == "Ку"){
   
       let rmsg1 = [
     'Ку!',
@@ -221,7 +221,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "Ку-ку
+if(args[0] == "Ку-ку"){
   
       let rmsg1 = [
     'Ку!',
@@ -242,7 +242,7 @@ message.channel.send(rmsg1c);
   return;
 };
 
-if(args[0] == "Кью{
+if(args[0] == "Кью"){
   
       let rmsg1 = [
     'Ку!',
