@@ -2,7 +2,14 @@ const Discord = require('discord.js');
 const moment = require("moment");
 
 module.exports.run = async (bot, message, args, ops) => {
+
+  if(!args[0] || args[0] == 1) {
   
+    let owner = bot.users.find(u => u.id === `294801596754165772`)
+  
+            message.channel.send("Вы не указали сообщение!");
+  };
+    
   if(args[0] == 'Привет', 'Ку', 'Хай', 'Hello', 'Hi', 'qq', 'q', 'кью', 'Дарова', 'Дороу', 'Здраствуйте'){
     
     let rmsg1 = [
