@@ -11,7 +11,7 @@ if(!args[0] || args[0] == 1) {
 
           message.channel.send("Вы не указали сообщение!");
 };
-if(args[0] == 'Привет', 'Ку', 'Хай', 'Hello', 'Hi', 'qq', 'q', 'кью', 'Дарова', 'Дороу', 'Здраствуйте'){
+if(args[0] == "Привет"){
   
       let rmsg1 = [
     'Ку!',
@@ -31,6 +31,238 @@ if(args[0] == 'Привет', 'Ку', 'Хай', 'Hello', 'Hi', 'qq', 'q', 'кь�
 message.channel.send(rmsg1c);
   return;
 };
+  
+if(args[0] == "Ку"){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+  
+if(args[0] == "Здарова
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Дороу
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Дарова
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "qq){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "q"){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "QQ){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Q"){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Ку{
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Ку-ку
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
+if(args[0] == "Кью{
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
+
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
+  return;
+};
+
 
 };
 
