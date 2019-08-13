@@ -12,8 +12,23 @@ if(!args[0] || args[0] == 1) {
           message.channel.send("Вы не указали сообщение!");
 };
 if(args[0] == "Привет"){
+  
+      let rmsg1 = [
+    'Ку!',
+    'qq',
+    'q',
+    'Дороу',
+    'Хэй!',
+    'Йоу',
+    'Приветики!',
+    'Привет',
+    'Хай',
+    'Ку-ку',
+  ]
 
-message.channel.send("Ку");
+  const rmsg1c = rmsg1[Math.floor(Math.random() * rmsg1.length)]
+
+message.channel.send(rmsg1c);
   return;
 };
 
