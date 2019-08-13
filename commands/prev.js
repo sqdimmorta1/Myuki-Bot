@@ -26,7 +26,7 @@ if(args[0] == "Привет"){
   'Ку-ку',
 ]
 
-const rmsgc = rmsg1[Math.floor(Math.random() * rmsg.length)]
+const rmsgc = rmsg[Math.floor(Math.random() * rmsg.length)]
 
 message.channel.send(rmsgc);
   return;
